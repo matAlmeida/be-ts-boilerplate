@@ -21,10 +21,18 @@
   "plugins": ["@typescript-eslint"],
   "rules": {
     "indent": ["error", 2],
-    "no-console": 0,
-    "@typescript-eslint/camelcase": 0,
-    "import/extensions": 0,
-    "import/prefer-default-export": 0
+    "no-console": "off",
+    "@typescript-eslint/camelcase": "off",
+    "import/extensions": "off",
+    "import/prefer-default-export": "off",
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single", "avoid-escape"],
+    "semi": ["error", "always"],
+    "no-use-before-define": "off",
+    "no-async-promise-executor": "off",
+    "import/no-named-default": "off",
+    "no-unused-vars": "warn",
+    "no-useless-escape": "off"
   },
   "settings": {
     "import/resolver": {
