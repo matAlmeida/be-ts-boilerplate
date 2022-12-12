@@ -16,7 +16,7 @@
     "url": "https://github.com/matalmeida/ilab-api/issues"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "http-status-codes": "^1.4.0",
     "pg": "^7.3.0",
     "reflect-metadata": "^0.1.10",
